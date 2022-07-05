@@ -1,2 +1,3 @@
 //ejercicio 4
-prompt("HolaNombreUsuario")
+let nombreUsuario = (prompt("nombre de usuario"));
+document.write("Hola " + " " + (nombreUsuario));
