@@ -1,9 +1,8 @@
-let text = prompt("Escribe una frase");
-let nText = text.length;
-let i;
-for (i = 0; i < nText; i++) {
-if (string.length(i,1) === "a" || string.length(i,1) === "e" || string.length(i,1) === "i" || string.length(i,1) === "o" || string.length(i,1) === "u");
-
-document.write("las vocales son" + string.length(i,1);
-
+const frase = prompt("Escriba una frase");
+for(let i = 0; i < frase.length; i++){
+    const letras = frase.charAt(i);
+    if ((letras == "a") || (letras == "e") || (letras == "i") || (letras == "o") || (letras == "u")) {
+        document.write(letras);
+    }
 }
+
